@@ -1,0 +1,63 @@
+Adding file into github 
+
+copy file you want to put on github to git folder (KinectProject)
+
+cd to Git\KinectProject
+
+git status - newly added files should be in red
+
+git add * adds all the directy files into github, you could specify the specfic fle, git add _______ <--- specfic file name 
+
+git log
+
+git status - now files added should be green
+
+git commit -m "message" type user and password
+
+git push
+
+_________________________________
+
+git pull
+
+#67742502074920 
+
+------------------------------------------
+
+Making Changes to Git file
+
+git log - to get commit hash 
+git show [hash] - to show file
+make changes
+git diff - to show the differences, +/- will show additions/deleted
+git add [modified file] - to add changes
+
+------------------------------------------
+
+Move files
+
+git mv [file name] [destination]
+
+Rename File
+
+git mv [file name] [file name] - should see a R when git status -s
+
+Remove file 
+
+git rm
+
+-----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
